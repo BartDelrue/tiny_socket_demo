@@ -1,0 +1,17 @@
+{
+  "name": "tiny_socket_demo",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "uuid": "^13.0.0",
+    "ws": "^8.18.3"
+  }
+}
