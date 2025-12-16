@@ -22,7 +22,7 @@ available at:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project is divided into the following key directories:
 
