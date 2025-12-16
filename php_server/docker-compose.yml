@@ -1,0 +1,19 @@
+services:
+  websockets:
+    build: docker
+    command: php bin/websockets/server.php
+    ports:
+      - "8080:80"
+    volumes:
+      - "./app:/var/www"
+      - "./docker/php.ini:/usr/local/etc/php/php.ini"
+    depends_on:
+      composer:
+        condition: service_completed_successfully
+  composer:
+    image: composer
+    command:
+      - install
+    volumes:
+      - "./app:/app"
+    restart: "no"

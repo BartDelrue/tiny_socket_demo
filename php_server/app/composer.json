@@ -1,0 +1,48 @@
+{
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "ramsey/uuid": "^4.9"
+    },
+    "config": {
+        "platform": {
+            "php": "8.4.15",
+            "ext-bcmath": "8.4.15",
+            "ext-ctype": "8.4.15",
+            "ext-curl": "8.4.15",
+            "ext-date": "8.4.15",
+            "ext-dom": "20031129",
+            "ext-fileinfo": "8.4.15",
+            "ext-filter": "8.4.15",
+            "ext-gd": "8.4.15",
+            "ext-hash": "8.4.15",
+            "ext-iconv": "8.4.15",
+            "ext-json": "8.4.15",
+            "ext-libxml": "8.4.15",
+            "ext-mbstring": "8.4.15",
+            "ext-mysqlnd": "0",
+            "ext-openssl": "8.4.15",
+            "ext-pcre": "8.4.15",
+            "ext-pdo": "8.4.15",
+            "ext-pdo_mysql": "8.4.15",
+            "ext-pdo_sqlite": "8.4.15",
+            "ext-phar": "8.4.15",
+            "ext-posix": "8.4.15",
+            "ext-random": "8.4.15",
+            "ext-readline": "8.4.15",
+            "ext-reflection": "8.4.15",
+            "ext-session": "8.4.15",
+            "ext-simplexml": "8.4.15",
+            "ext-soap": "8.4.15",
+            "ext-sodium": "8.4.15",
+            "ext-spl": "8.4.15",
+            "ext-sqlite3": "8.4.15",
+            "ext-tokenizer": "8.4.15",
+            "ext-xml": "8.4.15",
+            "ext-xmlreader": "8.4.15",
+            "ext-xmlwriter": "8.4.15",
+            "ext-zend-opcache": "8.4.15",
+            "ext-zip": "1.22.7",
+            "ext-zlib": "8.4.15"
+        }
+    }
+}
